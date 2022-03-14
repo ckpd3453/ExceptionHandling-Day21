@@ -6,6 +6,6 @@ public class Validate {
 	@Test
 	public void testFindMood()
 	{
-		assertEquals("Sad",MoodAnalyser.mood("I am Any mood"));
+		assertEquals("Sad",MoodAnalyser.mood("I am in Sad mood"));
 	}
 }
