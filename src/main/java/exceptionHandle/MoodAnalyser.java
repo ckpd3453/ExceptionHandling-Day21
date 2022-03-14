@@ -10,6 +10,7 @@ public class MoodAnalyser {
 			System.out.println("Sad");
 			return "Sad";
 		} else
-			return null;
+			System.out.println("Happy");
+			return "Happy";
 	}
 }
